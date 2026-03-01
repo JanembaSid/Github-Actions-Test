@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 24
       - name: Install Dependencies
-        run: npm CI
+        run: npm ci
 
       - name: linting test
         run: npm run lint
